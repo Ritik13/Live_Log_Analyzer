@@ -30,25 +30,9 @@ It continuously watches a log file, detects important patterns like SQL injectio
 ---
 
 ##  Project Structure
-live-log-analyzer/
-├── alerts/
-│   ├── alertLogger.js        # Save alerts to file
-│   └── spikeDetector.js      # (optional extraction for spike logic)
-│
-├── core/
-│   ├── liveTail.js           # Streams and parses logs live
-│   ├── logParser.js          # Full file reader (optional Phase 1)
-│   └── patternMatcher.js     # Smart pattern matching engine
-│
-├── events/
-│   └── emitter.js            # Central EventEmitter instance
-│
-├── logs/
-│   └── system.log            # Watched file (auto-generated)
-│
-├── server.js                 # Main orchestrator
-├── package.json
-└── README.md
+
+![image](https://github.com/user-attachments/assets/c6449f8a-d2af-431e-a697-e62134d29be0)
+
 
 ---
 
